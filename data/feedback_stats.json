@@ -1,0 +1,21 @@
+{
+  "total_feedback": 2,
+  "confirmed_accurate": 2,
+  "corrected_by_tech": 0,
+  "history": [
+    {
+      "record_id": "MNT-0266",
+      "timestamp": "2026-09-20T14:43:12.934753",
+      "is_accurate": true,
+      "reported_issue": "Air conditioning unit blowing warm air into lecture hall with audible compressor rattling noise",
+      "root_cause": "Worn serpentine drive belt and seized idler pulley bearing"
+    },
+    {
+      "record_id": "MNT-0267",
+      "timestamp": "2026-09-20T14:49:36.413435",
+      "is_accurate": true,
+      "reported_issue": "Air conditioning unit blowing warm air into lecture hall with audible compressor rattling noise",
+      "root_cause": "Worn serpentine drive belt and seized idler pulley bearing"
+    }
+  ]
+}

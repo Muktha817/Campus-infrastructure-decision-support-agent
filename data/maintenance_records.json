@@ -4503,5 +4503,39 @@
     "technician": "Tech #03 (M. Al-Mansoor)",
     "technician_notes": "Emergency rescue conducted within 18 minutes. No injuries.",
     "verified_by_supervisor": true
+  },
+  {
+    "id": "MNT-0266",
+    "equipment_type": "HVAC",
+    "equipment_id": "ASSET-AC-204",
+    "location": "Engineering Block - Room 204",
+    "reported_issue": "Air conditioning unit blowing warm air into lecture hall with audible compressor rattling noise",
+    "symptoms": "Low suction pressure (42 PSI), thermal expansion frost accumulation, short-cycling every 4 minutes. Telemetry: ALARM-402: Head Pressure Differential Exceeded",
+    "root_cause": "Worn serpentine drive belt and seized idler pulley bearing",
+    "fix_action": "Isolate power feed and perform Lockout/Tagout (LOTO). Perform primary remediation: Locked out power, replaced dual B-section V-belts and idler pulley assembly, laser-aligned sheaves, adjusted belt tension to 120 lbs. Conduct mechanical and electrical calibration tests. Return equipment to BMS supervisory control and document resolution.",
+    "resolution_time_hrs": 3.0,
+    "cost_estimate_usd": 367,
+    "urgency": "Medium",
+    "date_logged": "2026-09-20 14:43",
+    "technician": "Tech Lead Jordan (Feedback Loop)",
+    "technician_notes": "[CONFIRMED ACCURATE] Verified on site. Root cause confirmed and repair executed per procedure.",
+    "verified_by_supervisor": true
+  },
+  {
+    "id": "MNT-0267",
+    "equipment_type": "HVAC",
+    "equipment_id": "ASSET-AC-204",
+    "location": "Engineering Block - Room 204",
+    "reported_issue": "Air conditioning unit blowing warm air into lecture hall with audible compressor rattling noise",
+    "symptoms": "Low suction pressure (42 PSI), thermal expansion frost accumulation, short-cycling every 4 minutes. Telemetry: ALARM-402: Head Pressure Differential Exceeded",
+    "root_cause": "Worn serpentine drive belt and seized idler pulley bearing",
+    "fix_action": "Isolate power supply and follow standard safety isolation. Isolate power feed and perform Lockout/Tagout (LOTO) Perform primary remediation: Locked out power, replaced dual B-section V-belts and idler pulley assembly, laser-aligned sheaves, adjusted belt tension to 120 lbs Conduct mechanical and electrical calibration tests Return equipment to BMS supervisory control and document resolution Perform full load validation test and clear supervisory alarms.",
+    "resolution_time_hrs": 2.9,
+    "cost_estimate_usd": 361,
+    "urgency": "Medium",
+    "date_logged": "2026-09-20 14:49",
+    "technician": "Tech Lead Jordan (Feedback Loop)",
+    "technician_notes": "[CONFIRMED ACCURATE] Verified on site. Root cause confirmed and repair executed per procedure.",
+    "verified_by_supervisor": true
   }
 ]
